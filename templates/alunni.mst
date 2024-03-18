@@ -1,0 +1,13 @@
+<h1>Classe</h1>
+
+{{getNome}}
+
+<h1>Alunni</h1>
+
+<ul>
+    {{#getArray}}
+     <li>
+            {{getNome}} {{getCognome}} {{getEta}}
+     </li>
+    {{/getArray}}
+</ul>
